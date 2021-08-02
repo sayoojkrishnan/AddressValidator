@@ -13,8 +13,9 @@
 		8726645826B7F8A000D8B2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8726645626B7F8A000D8B2C8 /* Main.storyboard */; };
 		8726645A26B7F8A100D8B2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8726645926B7F8A100D8B2C8 /* Assets.xcassets */; };
 		8726645D26B7F8A100D8B2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8726645B26B7F8A100D8B2C8 /* LaunchScreen.storyboard */; };
-		8726646826B7F8A100D8B2C8 /* AddressValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726646726B7F8A100D8B2C8 /* AddressValidatorTests.swift */; };
 		8726647326B7F8A100D8B2C8 /* AddressValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726647226B7F8A100D8B2C8 /* AddressValidatorUITests.swift */; };
+		8726648126B7F8B800D8B2C8 /* AddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726648026B7F8B800D8B2C8 /* AddressValidator.swift */; };
+		8726648326B7F95D00D8B2C8 /* AddressValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726648226B7F95D00D8B2C8 /* AddressValidatorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,12 @@
 		8726645C26B7F8A100D8B2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8726645E26B7F8A100D8B2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8726646326B7F8A100D8B2C8 /* AddressValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8726646726B7F8A100D8B2C8 /* AddressValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidatorTests.swift; sourceTree = "<group>"; };
 		8726646926B7F8A100D8B2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8726646E26B7F8A100D8B2C8 /* AddressValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8726647226B7F8A100D8B2C8 /* AddressValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidatorUITests.swift; sourceTree = "<group>"; };
 		8726647426B7F8A100D8B2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8726648026B7F8B800D8B2C8 /* AddressValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidator.swift; sourceTree = "<group>"; };
+		8726648226B7F95D00D8B2C8 /* AddressValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressValidatorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8726645026B7F8A000D8B2C8 /* AppDelegate.swift */,
+				8726648026B7F8B800D8B2C8 /* AddressValidator.swift */,
 				8726645226B7F8A000D8B2C8 /* SceneDelegate.swift */,
 				8726645426B7F8A000D8B2C8 /* ViewController.swift */,
 				8726645626B7F8A000D8B2C8 /* Main.storyboard */,
@@ -113,7 +116,7 @@
 		8726646626B7F8A100D8B2C8 /* AddressValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				8726646726B7F8A100D8B2C8 /* AddressValidatorTests.swift */,
+				8726648226B7F95D00D8B2C8 /* AddressValidatorTest.swift */,
 				8726646926B7F8A100D8B2C8 /* Info.plist */,
 			);
 			path = AddressValidatorTests;
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8726645526B7F8A000D8B2C8 /* ViewController.swift in Sources */,
+				8726648126B7F8B800D8B2C8 /* AddressValidator.swift in Sources */,
 				8726645126B7F8A000D8B2C8 /* AppDelegate.swift in Sources */,
 				8726645326B7F8A000D8B2C8 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8726646826B7F8A100D8B2C8 /* AddressValidatorTests.swift in Sources */,
+				8726648326B7F95D00D8B2C8 /* AddressValidatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
